@@ -10,6 +10,9 @@
 }
 
 /*useful classes*/
+.text-secondary{
+    color: rgb(189, 29, 77);
+}
 .btn{
     display: inline-block;
     background:rgb(189, 29, 77);
@@ -33,6 +36,39 @@
     padding: 0 100px;
     margin: auto;
 }
+
+.text-middle{
+    text-align: center;
+}
+
+.heading{
+    font-size: 32px;
+    margin-bottom: 12px;
+}
+
+.title::before{
+    content: "";
+    background: #070800;
+    height: 2px;
+    width: 200px;
+    margin: 0 auto;
+    display: block;
+    transform: translateY(44px);
+}
+
+.title::after{
+    content: "";
+    background: #070808;
+    height: 7px;
+    width: 65px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(4px);
+}
+
+/*header part*/
 
 .header{
     background-image: url(../images/circle.jpg);
