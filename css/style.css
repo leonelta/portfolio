@@ -28,6 +28,12 @@
     background: none;
 }
 
+.container{
+    max-width: 1300px;
+    padding: 0 100px;
+    margin: auto;
+}
+
 .header{
     background-image: url(../images/circle.jpg);
     background-repeat: no-repeat;
