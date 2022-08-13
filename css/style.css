@@ -166,5 +166,10 @@ span{
     padding-top: -20px;
 }
 
+.about h5{
+    font-weight: 700;
+    transform: translateY(-65px);
+}
+
 
 
