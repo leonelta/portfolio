@@ -47,7 +47,7 @@
 }
 
 .title::before{
-    content: "";
+    content: '';
     background: #070800;
     height: 2px;
     width: 200px;
@@ -57,7 +57,7 @@
 }
 
 .title::after{
-    content: "";
+    content: '';
     background: #070808;
     height: 7px;
     width: 65px;
@@ -65,7 +65,7 @@
     margin-right: auto;
     margin-bottom: 40px;
     display: block;
-    transform: translateY(4px);
+    transform: translateY(1px);
 }
 
 .about .about-content{
@@ -93,19 +93,20 @@
     position: fixed;
     width: 100%;
     margin: auto;
-    padding: 30px 100px;
+    padding: 35px 100px;
     display: flex; 
     justify-content: space-between;
     align-items: center;
 }
 
 .navbar.sticky{
-    
+    padding: 10px 100px;
+    background: #070808;
 }
 
 .navbar .logo{
     color: white;
-    font-size: 35px;
+    font-size: 30px;
     letter-spacing: 1px;
     cursor: pointer;
 }
@@ -118,7 +119,7 @@ span{
     list-style: none;
     display: inline-block;
     margin: 0 20px;
-    font-size: 17px;
+    font-size: 13px;
     text-transform: uppercase;
 }
 
@@ -142,7 +143,7 @@ span{
 }
 
 .intro-text .one{
-    font-size: 30px;
+    font-size: 27px;
 }
 
 .intro-text .two{
@@ -151,7 +152,7 @@ span{
 }
 
 .intro-text .three{
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 700;
     margin: 5px 0;
 }
@@ -172,7 +173,7 @@ span{
 .about h1{
     color: rgb(119, 98, 98);
     text-align: center;
-    font-size: 75px;
+    font-size: 80px;
     transform: translateY(20px);
     opacity: 0.1;
     padding-top: -20px;
