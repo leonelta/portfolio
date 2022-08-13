@@ -144,5 +144,27 @@ span{
     margin: 5px 0;
 }
 
-/*About part*?
+/*About part*/
+#about{
+    background: #070808;
+}
+
+.about .title::before{
+    background: rgb(189, 29, 77);
+}
+
+.about .title::after{
+    background: rgb(189, 29, 77);
+}
+
+.about h1{
+    color: rgb(119, 98, 98);
+    text-align: center;
+    font-size: 75px;
+    transform: translateY(20px);
+    opacity: 0.1;
+    padding-top: -20px;
+}
+
+
 
