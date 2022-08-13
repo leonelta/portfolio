@@ -13,7 +13,17 @@ $(document).ready(function(){
         strings:[
             "network engineer", "Developer"
         ],
-        typespeed: 100,
-        backsp
+        typeSpeed: 100,
+        backSpeed: 60,
+        loop: true
+    });
+
+    var typed = new Typed(".typing-2",{
+        strings:[
+            "network engineer", "Developer"
+        ],
+        typeSpeed: 100,
+        backSpeed: 60,
+        loop: true
     });
 });
