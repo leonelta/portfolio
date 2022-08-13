@@ -99,6 +99,10 @@
     align-items: center;
 }
 
+.navbar.sticky{
+    
+}
+
 .navbar .logo{
     color: white;
     font-size: 35px;
