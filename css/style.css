@@ -201,5 +201,26 @@ span{
     color: #A9A088;
 }
 
+.about .about-content .right .text{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.about .about-content .right p{
+    text-align: justify;
+    line-height: 1.2;
+}
+
+.about .about-content .right .personal{
+    width: 500px;
+    padding: 10px 0;
+    margin-left: 0;
+}
+
+.about .about-content .right .personal td{
+    padding: 10px;
+}
+
 
 
