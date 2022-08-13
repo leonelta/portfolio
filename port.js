@@ -13,7 +13,7 @@ $(document).ready(function(){
         strings:[
             "network engineer", "Developer"
         ],
-        typeSpeed: 100,
+        typeSpeed: 80,
         backSpeed: 60,
         loop: true
     });
