@@ -68,6 +68,14 @@
     transform: translateY(4px);
 }
 
+.about .about-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    transform: translateY(-60px);
+}
+
 /*header part*/
 
 .header{
@@ -169,6 +177,23 @@ span{
 .about h5{
     font-weight: 700;
     transform: translateY(-65px);
+}
+
+.about .about-content .column{
+    margin-top: 40px;
+}
+
+.about .about-content .left{
+    width: 55%;
+    padding: 0 20px;
+    overflow: hidden;
+}
+
+.about .about-content .left img{
+    height: 450px;
+    width: 450px;
+    object-fit: cover;
+    border-radius: 50%;
 }
 
 
