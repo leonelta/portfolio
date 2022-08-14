@@ -97,6 +97,7 @@
     display: flex; 
     justify-content: space-between;
     align-items: center;
+    z-index: 999;
 }
 
 .navbar.sticky{
@@ -225,6 +226,23 @@ span{
 
 .about .about-content .right .personal td{
     padding: 10px;
+}
+
+/*Service section part*/
+
+#services{
+    background-image: linear-gradient(rgb(22, 16, 22),rgb(27, 22, 25));
+    color:rgb(250, 246, 247);
+}
+
+.services h5{
+    font-weight: 700;
+    color: rgb(189, 29, 77) ;
+    transform: translateY(-65px);
+}
+
+.services h1{
+
 }
 
 
