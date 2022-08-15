@@ -68,7 +68,8 @@
     transform: translateY(1px);
 }
 
-.about .about-content{
+.about .about-content,
+.services .service-content{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -286,7 +287,9 @@ span{
     margin: -90px auto 0;
     background: #070808;
     border: 18px solid rgb(41, 32, 41);
+    transition: transform 1s;
 }
+
 
 .service-logo i{
     color: rgb(189, 29, 77);
@@ -334,6 +337,7 @@ span{
     bottom: 0;
     z-index: -1;
     box-shadow: 0 0 20px -15px #070800;
+    transition: transform 0.8s;
 }
 
 .shadow2{
@@ -346,6 +350,14 @@ span{
     bottom: 0;
     z-index: -2;
     box-shadow: 0 0 20px -15px #070800;
+}
+
+.main:hover .service{
+    transform: translateY(-50px);
+}
+
+.main:hover .shadow1{
+    transform: translateY(-25px);
 }
 
 
