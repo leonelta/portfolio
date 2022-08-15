@@ -295,8 +295,36 @@ span{
 }
 
 .service h4{
-    
+    height: 28px;
+    width: 80%;
+    background: #070808;
+    margin: 60px auto;
+    position: relative;
 }
+
+.service h4::after{
+    content: '';
+    width: 40px;
+    height: 30px;
+    background: linear-gradient(to right, #070800, rgb(189, 29, 77));
+    position: absolute;
+    right: -5px;
+    top: -5px;
+    z-index: -1;
+}
+
+.service h4::before{
+    content: '';
+    width: 40px;
+    height: 30px;
+    background: linear-gradient(to right, rgb(189, 29, 77), #070800);
+    position: absolute;
+    left: -5px;
+    bottom: -5px;
+    z-index: -1;
+}
+
+
 
 
 
