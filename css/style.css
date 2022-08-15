@@ -366,5 +366,13 @@ span{
     background: #070800;
 }
 
+.skills h1{
+    color: #6e6e70;
+    text-align: center;
+    font-size: 80px;
+    transform: translateY(20px);
+    opacity: ;
+}
+
 
 
