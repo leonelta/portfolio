@@ -324,6 +324,29 @@ span{
     z-index: -1;
 }
 
+.shadow1{
+    width: 80%;
+    height: 200px;
+    background: #070800;
+    position: absolute;
+    border-radius: 10px;
+    left: 10%;
+    bottom: 0;
+    z-index: -1;
+    box-shadow: 0 0 20px -15px #070800;
+}
+
+.shadow2{
+    width: 64%;
+    height: 200px;
+    background: #070800;
+    position: absolute;
+    border-radius: 10px;
+    left: 18%;
+    bottom: 0;
+    z-index: -2;
+    box-shadow: 0 0 20px -15px #070800;
+}
 
 
 
