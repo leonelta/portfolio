@@ -410,7 +410,31 @@ span{
 }
 
 .skills .skill-content .left a{
+    display: inline-block;
+    background: rgb(189, 29, 77);
+    color: #070800;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 8px 16px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 2px solid rgb(189, 29, 77);
+    transition: all 0.3s ease;
+}
+
+.skills .skill-content .left a:hover{
+    color:  rgb(189, 29, 77);
+    background: none;
+}
+
+.skills .skill-content .right .bars{
+    margin-bottom: 20px;
+}
+
+.skills .skill-content .right .info{
     
 }
+
+
 
 
