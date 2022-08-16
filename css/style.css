@@ -375,5 +375,21 @@ span{
     padding-top: -20px;
 }
 
+.skills h5{
+    font-weight: 700;
+    transform: translateY(-65px);
+}
+
+.skills .title::before{
+    background: rgb(189, 29, 77);
+}
+
+.skills .title::after{
+    background: rgb(189, 29, 77);
+}
+
+.skills .skill-content .column{
+    
+}
 
 
