@@ -69,7 +69,8 @@
 }
 
 .about .about-content,
-.services .service-content{
+.services .service-content,
+.skills .skill-content{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -389,7 +390,8 @@ span{
 }
 
 .skills .skill-content .column{
-    
-}
+    margin-top: 40px;
+    width: calc(50% - 50px);
+} 
 
 
