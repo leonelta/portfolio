@@ -362,7 +362,7 @@ span{
 
 /* skills section*/
 
-#Skills{
+#skills{
     background: #070800;
 }
 
@@ -371,7 +371,8 @@ span{
     text-align: center;
     font-size: 80px;
     transform: translateY(20px);
-    opacity: ;
+    opacity: 0.1;
+    padding-top: -20px;
 }
 
 
