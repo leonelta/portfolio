@@ -394,4 +394,23 @@ span{
     width: calc(50% - 50px);
 } 
 
+.skills .skill-content .left .text{
+    font-size: 27px;
+    font-weight: 700;
+    padding: 10px 0;
+    margin-bottom: 10px;
+    color: rgb(189, 29, 77);
+}
+
+.skills .skill-content .left p{
+    color: aliceblue;
+    text-align: justify;
+    line-height: 1.4;
+    padding-top: 15px;
+}
+
+.skills .skill-content .left a{
+    
+}
+
 
