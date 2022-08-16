@@ -432,6 +432,7 @@ span{
 }
 
 .skills .skill-content .right .info{
+    display: flex;
     
 }
 
