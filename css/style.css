@@ -479,8 +479,27 @@ span{
 }
 
 /*Contact Me Part*/
+#contact{
+        background-image: linear-gradient(rgb(22, 16, 22),rgb(27, 22, 25));
+        color:rgb(250, 246, 247); 
+}
+.contact h1{
+    color: #6e6e70;
+    text-align: center;
+    font-size: 80px;
+    transform: translateY(20px);
+    opacity: 0.1;
+    padding-top: -20px;
+}
 
- 
+.contact h5{
+    font-weight: 700;
+    transform: translateY(-65px);
+}
+
+.contact .title::after{
+    background: rgb(189, 29, 77);
+}
 
 
 
