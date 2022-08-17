@@ -433,8 +433,51 @@ span{
 
 .skills .skill-content .right .info{
     display: flex;
-    
+    margin-bottom: 5px;
+    color: aliceblue;
+    align-items: center;
+    justify-content: space-between;
 }
+
+.skills .skill-content .right span{
+    font-weight: 500;
+    font-size: 18px;
+    color: aliceblue;
+}
+
+.skills .skill-content .right .line{
+    height: 2px;
+    width: 100%;
+    background: lightgray;
+    position: relative;
+}
+
+.skills .skill-content .right .line::before{
+    content: '';
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: rgb(189, 29, 77);
+}
+
+.skills .skill-content .right .py::before{
+    width: 50%;
+}
+
+.skills .skill-content .right .js::before{
+    width: 55%;
+}
+
+.skills .skill-content .right .lx::before{
+    width: 40%;
+}
+
+
+
+
+
+
 
 
 
