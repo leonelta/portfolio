@@ -78,6 +78,11 @@
     transform: translateY(-60px);
 }
 
+section{
+    padding: 40px 0;
+    background: #070800;
+}
+
 /*header part*/
 
 .header{
@@ -475,6 +480,7 @@ span{
 
 /*Contact Me Part*/
 
+ 
 
 
 
