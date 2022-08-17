@@ -552,3 +552,39 @@ span{
 .contact .contact-content .right p{
     line-height: 1.6;
 }
+
+.contact .contact-content .right .items{
+    margin: 10px 0;
+}
+
+.contact .contact-content .right .items .item{
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+}
+.contact .contact-content .right .items .item i{
+    padding: 16px;
+    border: 1px solid #A9A088;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.contact .contact-content .right .items .item span{
+    font-size: 14px;
+}
+
+.contact .contact-content .right .links{
+    overflow: hidden;
+    padding: 10px 0;
+}
+
+.contact .contact-content .right .links li{
+    display: inline-block;
+    list-style: none;
+    padding-right: 15px;
+}
+
+.contact .contact-content .right .links li a{
+    color: #A9A088;
+    text-decoration: none;
+}
