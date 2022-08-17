@@ -544,12 +544,11 @@ span{
     color: #A9A088;
 }
 
+.contact .contact-content .right h2{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
 
-
-
-
-
-
-
-
-
+.contact .contact-content .right p{
+    line-height: 1.6;
+}
