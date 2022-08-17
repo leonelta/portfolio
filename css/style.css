@@ -514,6 +514,25 @@ span{
 .contact .contact-content .left h2{
     font-size: 30px;
     margin-bottom: 50px;
+    color: aliceblue;
+}
+
+.contact .contact-content .left .form-group input{
+    width: 100%;
+    padding: 10px;
+    margin: 15px 0;
+    border: 1px solid #A9A088;
+    background: #fff;
+    border-radius: 5px;
+}
+
+.contact .contact-content .left .form-group textarea{
+    width: 100%;
+    background: #fff;
+    padding: 10px;
+    height: 150px;
+    margin-top: 20px;
+    border-radius: 5px;
 }
 
 
