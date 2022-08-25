@@ -9,6 +9,10 @@
     outline: none;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 /*useful classes*/
 .text-secondary{
     color: rgb(189, 29, 77);
@@ -300,8 +304,11 @@ span{
 
 .service-logo i{
     color: rgb(189, 29, 77);
-    width: 50px;
-    margin-top: 20px;
+    width: 100px;
+    position: absolute;
+    right: 105px;
+    margin-top: 34px;
+    font-size: 27px;
 }
 
 .service h4{
@@ -479,6 +486,14 @@ span{
     width: 40%;
 }
 
+.skills .skill-content .right .hc::before{
+    width: 70%;
+}
+
+.skills .skill-content .right .tm::before{
+    width: 70%;
+}
+
 /*Contact Me Part*/
 #contact{
         background-image: linear-gradient(rgb(22, 16, 22),rgb(27, 22, 25));
@@ -513,7 +528,7 @@ span{
 
 .contact .contact-content .left h2{
     font-size: 30px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     color: aliceblue;
 }
 
@@ -589,8 +604,16 @@ span{
     text-decoration: none;
 }
 
+.contact .contact-content .right .links li a i{
+    font-size: 25px;
+}
+
 /*footer part*/
 
 #footer{
-
+    text-align: center;
+    background: #070800;
+    padding: 30px 0;
+    color: #A9A088;
+    font-weight: 700;
 }
