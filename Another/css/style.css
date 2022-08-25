@@ -7,6 +7,8 @@
     outline: none;
 }
 
+/*Heeader part*/
+
 .header{
     background-color: rgb(6, 6, 36);
     width: 100%;
@@ -14,11 +16,13 @@
 
 }
 
+/*nav bar part*/
+
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 20px;
+    padding-top: 30px;
     padding-right: 8%;
     padding-left: 8%;
 }
@@ -33,4 +37,24 @@ nav{
 span{
     color: yellow;
     font-size: 35px
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 23px;
+}
+
+nav ul li a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: rgb(245, 245, 6);
+}
+
+.active{
+    color: yellow;
 }
