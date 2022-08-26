@@ -39,8 +39,8 @@ nav{
     align-items: center;
     justify-content: space-between;
     padding-top: 30px;
-    padding-right: 8%;
-    padding-left: 8%;
+    padding-right: 14%;
+    padding-left: 14%;
 }
 
 .logo{
@@ -75,3 +75,68 @@ nav ul li a:hover{
 .active{
     color: yellow;
 }
+
+.content-head{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.info{
+    width: 55%;
+    position: absolute;
+    top: 47%;
+    left: 14%;
+    transform: translateY(-50%);
+}
+
+.welcome{
+    color: rgb(199, 199, 13);
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 10px 10px;
+    text-align: center;
+    margin-right: 650px;
+    font-size: 15px;
+}
+
+.info h2{
+    font-size: 35px;
+    color: white;
+    padding-top: 13px;
+    font-family: "Lucida Console", "Courier New", monospace;;
+}
+
+.info h1{
+    font-size: 50px;
+    padding-top: 15px;
+    color: white;
+    font-weight: bold;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.info h4{
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: white;
+    padding-top: 17px;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.info p{
+    padding-top: 10px;
+    color: white;
+    line-height: 1.5;
+    padding-bottom: 40px;
+    font-size: 18px;
+}
+
+.img{
+    width: 45%;
+    position: absolute;
+    top: 47%;
+    left: 55%;
+    transform: translateY(-50%);
+}
+
