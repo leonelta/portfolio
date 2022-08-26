@@ -186,3 +186,28 @@ nav ul li a:hover{
     font-size: 15px;
     padding: 25px 0px;
 }
+
+.about{
+    width: 100%;
+    padding: 100px 0;
+    background-color: rgb(1, 1, 19);
+    height: 100vh;
+}
+
+.about .main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+    max-width: 95%;
+    width: 1120px;
+}
+
+.about img{
+    height: auto;
+    width: 430px;
+}
+
+.about-text{
+    
+}
