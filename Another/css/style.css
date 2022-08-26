@@ -140,3 +140,18 @@ nav ul li a:hover{
     transform: translateY(-50%);
 }
 
+/*service part*/
+
+.container{
+    background: rgb(70, 69, 69);
+    width: 100%;
+    padding: 80px 0px;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+}
+
