@@ -40,7 +40,7 @@ nav{
     justify-content: space-between;
     padding-top: 30px;
     padding-right: 14%;
-    padding-left: 16%;
+    padding-left: 15%;
 }
 
 .logo{
@@ -87,7 +87,7 @@ nav ul li a:hover{
     width: 55%;
     position: absolute;
     top: 47%;
-    left: 16%;
+    left: 15%;
     transform: translateY(-50%);
 }
 
@@ -152,16 +152,16 @@ nav ul li a:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 150px;
+    min-height: 200px;
 }
 
 .col-sm-4{
-    height: 190px;
-    width: 300px;
-    padding: 28px 40px;
+    height: 200px;
+    width: 330px;
+    padding: 28px 35px;
     background: rgb(1, 1, 19);
     border-radius: 15px;
-    margin: 40px;
+    margin: 35px;
     position: relative;
     overflow: hidden;
     text-align: center;
@@ -170,6 +170,19 @@ nav ul li a:hover{
 
 .col-sm-4 i{
     font-size: 40px;
-    color: ;
+    color: yellow;
+    text-align: center;
+    margin: 20px 0px;
+    display: block;
 }
 
+.col-sm-4 h3{
+    color: white;
+    font-size: 20px;
+}
+
+.col-sm-4 p{
+    color: white;
+    font-size: 15px;
+    padding: 25px 0px;
+}
