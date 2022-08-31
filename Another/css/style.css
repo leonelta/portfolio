@@ -20,6 +20,7 @@
 }
 
 .btn:hover{
+    background-color: rgb(119, 119, 11);
     transform: scale(1.2);
 }
 
@@ -191,7 +192,6 @@ nav ul li a:hover{
     width: 100%;
     padding: 100px 0;
     background-color: rgb(1, 1, 19);
-    height: 100vh;
 }
 
 .about .main{
@@ -210,4 +210,24 @@ nav ul li a:hover{
 
 .about-text{
     width: 550px;
+}
+
+.about-text h1{
+    color: rgb(199, 199, 13);
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.about-text h4{
+    color: white;
+    font-size: 45px;
+    margin-bottom: 20px;   
+}
+
+.about-text p{
+    color: white;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 19px;
+    margin-bottom: 45px;
 }
