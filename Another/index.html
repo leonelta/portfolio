@@ -4,118 +4,168 @@
         <title>PORTFOLIO</title>
         <link rel="stylesheet" href="css/style.css">
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
         <!-- CSS only -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
          integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
         <!-- JavaScript Bundle with Popper -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" 
-        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
     </head>
 
     <body>
-        <div class="header">
-            <nav class="navbar">
-                <h2 class="logo"><span>V</span> CREATION</h2>
-                <ul class="head">
-                    <li><a href="#" class="active">HOME</a></li>
-                    <li><a href="#">ABOUT</a></li>
-                    <li><a href="#">PORTFOLIO</a></li>
-                    <li><a href="#">SERVICES</a></li>
-                    <li><a href="#">PAGES</a></li>
-                    <li><a href="#">CONTACT</a></li>
+        
+      <nav class="navbar navbar-expand-sm bg-dark fixed-top text-uppercase">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><span color="yellow">V</span> CREATION</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Portfolio</a>
+              </li>  
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"> Services</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Link</a></li>
+                  <li><a class="dropdown-item" href="#">Another link</a></li>
+                  <li><a class="dropdown-item" href="#">A third link</a></li>
                 </ul>
-                <a href="#" class="btn">Buy Now</a>
-            </nav>
-            <div class="content-head">
-                <div class="info">
-                    <h3 class="welcome"> WELCOME TO MY WORLD</h3>
-                    <h2 class="display-5">HELLO, I AM</h2>
-                    <h1 class="display-3">Md Salah Uddin</h1>
-                    <h4 class="display-6">UI/UX DESIGNER</h4>
-                    <p>Love To Explore Minimalist Design Functionality. I will Create A<br>
-                        Design That Can Give Value To Your Digital Product.
-                    </p>
-                    <a href="#" class="btn">Hire Me</a>
-                </div>
-                <div class="img">
-                    <img src="" alt="profile">
-                </div>
-            </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"></a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Link</a></li>
+                  <li><a class="dropdown-item" href="#">Another link</a></li>
+                  <li><a class="dropdown-item" href="#">A third link</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li> 
+            </ul>
+          </div>
         </div>
-        <div class="container mt-5">
+      </nav>
+        
+        <!--javascript-->
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 
-            <div class="row">
-                <div class="col-sm-4">
-                   <i class="bi bi-router-fill"></i>
-                   <h3>Fast Perfomance</h3>
-                   <p>Lorem ipsum dolor sit, amet consectetur 
-                      adipisicing elit. Necessitatibus repellat dolorem iure
-                   </p>
-                </div>
-                <div class="col-sm-4">
-                   <i class="bi bi-router-fill"></i>
-                   <h3>Perfect Responsive</h3>
-                   <p>Lorem ipsum dolor sit, amet consectetur 
-                      adipisicing elit. Necessitatibus repellat dolorem iure
-                   </p>
-                </div>
-                <div class="col-sm-4">
-                    <i class="bi bi-router-fill"></i>
-                    <h3>Fast & Friendly Support</h3>        
-                    <p>Lorem ipsum dolor sit, amet consectetur 
-                      adipisicing elit. Necessitatibus repellat dolorem iure
-                    </p>
-               </div>
-            </div>
+        <!--
+          <div class="header">
+    <nav class="navbar">
+        <h2 class="logo"><span>V</span> CREATION</h2>
+        <ul class="head">
+            <li><a href="#" class="active">HOME</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">PORTFOLIO</a></li>
+            <li><a href="#">SERVICES</a></li>
+            <li><a href="#">PAGES</a></li>
+            <li><a href="#">CONTACT</a></li>
+        </ul>
+        <a href="#" class="btn">Buy Now</a>
+    </nav>
+    <div class="content-head">
+        <div class="info">
+            <h3 class="welcome"> WELCOME TO MY WORLD</h3>
+            <h2 >HELLO, I AM</h2>
+            <h1 >Md Salah Uddin</h1>
+            <h4>UI/UX DESIGNER</h4>
+            <p>Love To Explore Minimalist Design Functionality. I will Create A<br>
+                Design That Can Give Value To Your Digital Product.
+            </p>
+            <a href="#" class="btn">Hire Me</a>
         </div>
+        <div class="img">
+            <img src="" alt="profile">
+        </div>
+    </div>
+</div>
+<div class="container-md">
 
-        <!---- About section ---->
-        <section class="about">
-            <div class="main">
-                <img src="" alt="money">
-                <div class="about-text">
-                    <h1>ABOUT ME</h1>
-                    <h4>Why hire me for your next project?</h4>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis consequatur
-                        , officia animi in saepe ab deleniti cumque sunt nesciunt nemo! Eaque eos quae
-                         illum voluptatum ipsam laboriosam optio
-                       itaque hic iure! Est numquam quod repellat magni officia at ab dignissimos.
-                    </p>
-                    <a href="#" class="btn">Download CV</a>
-                </div>
-            </div>
-        </section>
-        <!--Tools section-->
-        <section class="tools">
-            <h3>Tools</h3>
-            <h2>My Advantages</h2>
-            <div class="row">
-                <div class="col-sm-4">
-                    <i class="bi bi-router-fill"></i>
-                    <h3>95%</h3>
-                    <p>Sketch</p>
-                </div>
-                <div class="col-sm-4">
-                   <i class="bi bi-router-fill"></i>
-                   <h3>95%</h3>
-                   <p>Adobe XD</p>
-                </div>
-                <div class="col-sm-4">
-                    <i class="bi bi-router-fill"></i>
-                    <h3>95%</h3>        
-                    <p>Figma</p>
-               </div>
-               <div class="col-sm-4">
-                <i class="bi bi-router-fill"></i>
-                <h3>95%</h3>
-                <p>Photoshop</p>
-             </div>
-            </div>
-        </section>
+    <div class="row">
+        <div class="col-sm-4">
+           <i class="bi bi-router-fill"></i>
+           <h3>Fast Perfomance</h3>
+        
+           <p>Lorem ipsum dolor sit, amet consectetur 
+              adipisicing elit. Necessitatibus repellat dolorem iure
+           </p>
+        </div>
+        <div class="col-sm-4">
+           <i class="bi bi-router-fill"></i>
+           <h3>Perfect Responsive</h3>
+           <p>Lorem ipsum dolor sit, amet consectetur 
+              adipisicing elit. Necessitatibus repellat dolorem iure
+           </p>
+        </div>
+        <div class="col-sm-4">
+            <i class="bi bi-router-fill"></i>
+            <h3>Fast & Friendly Support</h3>        
+            <p>Lorem ipsum dolor sit, amet consectetur 
+              adipisicing elit. Necessitatibus repellat dolorem iure
+            </p>
+       </div>
+    </div>
+</div>
+
+
+<section class="about">
+  <div class="main">
+      <img src="" alt="money">
+      <div class="about-text">
+          <h1>ABOUT ME</h1>
+          <h4>Why hire me for your next project?</h4>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis consequatur
+              , officia animi in saepe ab deleniti cumque sunt nesciunt nemo! Eaque eos quae
+               illum voluptatum ipsam laboriosam optio
+             itaque hic iure! Est numquam quod repellat magni officia at ab dignissimos.
+          </p>
+          <a href="#" class="btn">Download CV</a>
+      </div>
+  </div>
+</section>
+
+<section class="tools">
+  <h3>Tools</h3>
+  <h2>My Advantages</h2>
+  <div class="row">
+      <div class="col-sm-4">
+          <i class="bi bi-router-fill"></i>
+          <h3>95%</h3>
+          <p>Sketch</p>
+      </div>
+      <div class="col-sm-4">
+         <i class="bi bi-router-fill"></i>
+         <h3>95%</h3>
+         <p>Adobe XD</p>
+      </div>
+      <div class="col-sm-4">
+          <i class="bi bi-router-fill"></i>
+          <h3>95%</h3>        
+          <p>Figma</p>
+     </div>
+     <div class="col-sm-4">
+      <i class="bi bi-router-fill"></i>
+      <h3>95%</h3>
+      <p>Photoshop</p>
+   </div>
+  </div>
+</section>
+
+
+        -->
     </body>
 </html>
