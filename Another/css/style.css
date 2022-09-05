@@ -11,7 +11,7 @@
     text-decoration: none;
     font-weight: bold;
     border: 2px solid transparent;
-    padding: 10px 25px;
+    padding: 10px 27px;
     border-radius: 30px;
     color: black;
     transition: transform .4s;
@@ -38,7 +38,7 @@
     font-size: 0.5em;;
     cursor: pointer;
     padding-bottom: 10%;
-    padding-left: 10%;
+    padding-left: 5%;
 }
 
 .navbar-brand span{
@@ -48,7 +48,7 @@
 
 .navbar-nav{
     position: absolute;
-    left: 35%;
+    left: 30%;
     bottom: 10%;
     padding: 10px 23px;
 }
@@ -64,14 +64,23 @@
     background-color: rgb(1, 1, 19);
     width: 100%;
     height: 88vh;
+    padding-left: 8%
 }
 
 .main .welcome{
     color: rgb(199, 199, 13);
     border: 2px solid white;
     border-radius: 5px;
-    font-size: 1.5rem;
-    margin-right: 200px;
+    font-size: 1.3rem;
+    margin-right: 350px;
+    padding: 2%;
+}
+
+.main h2{
+    font-size: 35px;
+    color: white;
+    padding-top: 13px;
+    font-family: "Lucida Console", "Courier New", monospace;;
 }
 
 /*
