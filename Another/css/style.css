@@ -77,10 +77,24 @@
 }
 
 .main h2{
-    font-size: 35px;
+    font-size: 2.2rem;
     color: white;
-    padding-top: 13px;
+    padding-top: 10px;
     font-family: "Lucida Console", "Courier New", monospace;;
+}
+
+.main h1{
+    font-size: 3.0rem;
+    padding-top: 6px;
+    color: white;
+    font-weight: bold;
+}
+
+.main h4{
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+    color: white;
+    padding-top: 5px;
 }
 
 /*
