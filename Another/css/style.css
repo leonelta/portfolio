@@ -60,10 +60,18 @@
 }
 
 .main{
-    
+    background-color: rgb(1, 1, 19);
+    width: 100%;
+    height: 88vh;
 }
 
-
+.main .welcome{
+    color: rgb(199, 199, 13);
+    border: 2px solid white;
+    border-radius: 5px;
+    font-size: 2.0rem;
+    margin-right: 240px
+}
 
 /*
 
