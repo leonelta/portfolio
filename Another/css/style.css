@@ -134,6 +134,10 @@
     border: none;
     outline: none;
 }
+
+.card p{
+    color: white;
+}
 /*
 
 .btn{
