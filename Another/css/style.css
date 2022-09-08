@@ -135,8 +135,18 @@
     outline: none;
 }
 
+.card-body{
+    background-color: rgb(1, 1, 19);
+}
+
 .card p{
     color: white;
+}
+
+.circle{
+   height: 70px;
+   width: 50px;
+   
 }
 /*
 
