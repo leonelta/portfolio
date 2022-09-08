@@ -130,6 +130,10 @@
     padding: 30px 100px;
 }
 
+.card{
+    border: none;
+    outline: none;
+}
 /*
 
 .btn{
