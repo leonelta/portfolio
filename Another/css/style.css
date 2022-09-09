@@ -157,6 +157,21 @@
 
 /*about part*/
 
+.about{
+    background-color: rgb(1, 1, 19);
+}
+
+.about h1{
+    font-size: 1.8rem;
+    color: yellow;
+}
+
+.hire{
+    font-size: 3.3rem;
+    line-height: 1.3;   
+}
+
+
 /*
 
 .btn{
@@ -191,7 +206,7 @@ nav{
     justify-content: space-between;
     padding-top: 30px;
     padding-right: 14%;
-    padding-left: 15%;
+  about h1{  padding-left: 15%;
 }
 
 .logo{
