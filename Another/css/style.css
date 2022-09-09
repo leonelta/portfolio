@@ -127,12 +127,12 @@
 .services{
     background: rgb(36, 35, 35);
     width: 100%;
-    padding: 30px 100px;
+    padding: 30px 190px;
 }
 
 .card{
-    border: none;
-    outline: none;
+    background-color: rgb(1, 1, 19);
+    border-radius: 50%;
 }
 
 .card-body{
@@ -144,15 +144,17 @@
 }
 
 .circle{
-   height: 70px;
-   width: 50px;
-   color: yellow;
-   padding: 12px;
-   font-size: 30px;
+   height: 60px;
+   width: 60px;
+   color: black;
+   background-color: yellow;
+   padding: 10px;
+   font-size: 25px;
    display: inline-block;
-   margin-bottom: 20px;
+   margin-bottom: 10px;
    border-radius: 50%;
 }
+
 /*
 
 .btn{
