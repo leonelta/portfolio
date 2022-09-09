@@ -171,6 +171,45 @@
     line-height: 1.3;   
 }
 
+.tools{
+    background: rgb(36, 35, 35);
+    width: 100%;
+    padding: 30px 190px;
+}
+
+.card{
+    background-color: rgb(1, 1, 19);
+    border-radius: 50%;
+}
+
+.card-body{
+    background-color: rgb(1, 1, 19);
+}
+
+.card p{
+    color: white;
+}
+
+.circle{
+   height: 60px;
+   width: 60px;
+   color: black;
+   background-color: yellow;
+   padding: 10px;
+   font-size: 25px;
+   display: inline-block;
+   margin-bottom: 10px;
+   border-radius: 50%;
+}
+
+/*tools*/
+.advan{
+    color: yellow;
+}
+
+.advan1{
+    font-size: 3rem;
+}
 
 /*
 
