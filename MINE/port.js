@@ -11,7 +11,7 @@ $(document).ready(function(){
 
     var typed = new Typed(".typing-1",{
         strings:[
-            "network engineer", "Developer"
+            "network engineer", "Frontend Developer"
         ],
         typeSpeed: 80,
         backSpeed: 60,
@@ -20,7 +20,7 @@ $(document).ready(function(){
 
     var typed = new Typed(".typing-2",{
         strings:[
-            "network engineer", "Developer"
+            "network engineer", "frontend Developer"
         ],
         typeSpeed: 100,
         backSpeed: 60,
